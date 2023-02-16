@@ -17,7 +17,7 @@ package ticketmanagement;
 			System.out.println(c_id);
 			System.out.println(c_id);
 			System.out.println("DEBUG-->1");
-			/*if (has_result)
+			if (has_result)
 			{
 				System.out.println("your Are Already Registered");
 				System.out.println("---------------------------");
@@ -37,7 +37,7 @@ package ticketmanagement;
 				   System.out.println(c_id);
 			   }System.out.println("debug-->2");
 			   
-			}*/
+			}
 		}
 		public void register(Connection con) throws Exception {
 			PreparedStatement preparedStatement = null;
